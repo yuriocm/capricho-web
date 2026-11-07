@@ -151,7 +151,7 @@
 
  .journal-section { background: #e4d8c3; grid-template-columns: .85fr 1.15fr; padding-top: 85px; padding-bottom: 85px }
  .journal-visual { background: var(--red); color: var(--paper); min-height: 500px }
- .img-journal-visual { width: 300px; height: 300px; transform: rotate(10deg) }
+ .img-journal-visual { width: min(88%, 700px); height: auto; max-height: 410px; object-fit: contain; transform: none; filter: drop-shadow(8px 12px 8px rgba(0,0,0,.16)) }
  .journal-layout { display: flex; align-items: center; justify-content: center; gap: 22px; width: 90%; height: 360px; margin-top: 45px; transform: rotate(-5deg) }
  .journal-book { position: relative; width: 190px; height: 275px; filter: drop-shadow(10px 12px 8px rgba(0, 0, 0, .2)) }
  .journal-cover { position: absolute; inset: 0; background: var(--green); border: 2px solid var(--ink); padding: 18px; color: var(--yellow); display: flex; flex-direction: column; justify-content: space-between; z-index: 2 }
