@@ -325,3 +325,9 @@
    .hero-logo-image { width: 100%; max-height: none }
    .hero-explore { font-size: 9px; padding: 12px 14px }
  }
+
+
+/* Tote bag: mostrar la ficha original completa, sin la ilustración anterior */
+.tote-visual { background: #fcebd4; }
+.tote-reference-image { display: block; width: 100%; height: auto; max-width: 100%; object-fit: contain; position: relative; z-index: 2; }
+@media (max-width: 680px) { .tote-reference-image { width: 100%; height: auto; } }
